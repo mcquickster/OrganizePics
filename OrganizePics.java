@@ -12,7 +12,7 @@ public class OrganizePics{
         //You have to make the year folders by yourself, ex: Toshiba/2022 Pics
         destinations.add("L:/Toshiba/" + year + " Pics/");
         destinations.add("G:/" + year + " Pics/");
-       // destinations.add("Acatual Toshiba Path");
+       destinations.add("F:/" + year + " Pics/");
        Photos.makeFolders(destinations);
        organization.familyPics.sortByMonth(organization.familyPics.getFilePaths(), organization.familyPics.getFileNames(), destinations, year);
         
