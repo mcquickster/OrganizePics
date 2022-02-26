@@ -10,6 +10,7 @@ public class OrganizePics{
         //change the year here when needed
         int year = 2022;
         //You have to make the year folders by yourself, ex: Toshiba/2022 Pics
+        //You also have to transfer iphone pics yourself based on date column. All others just put in x folder and program will handle
         //toshiba
         destinations.add("L:/Toshiba/" + year + " Pics/");
         //backup
