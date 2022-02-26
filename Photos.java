@@ -142,8 +142,7 @@ public void sortByMonth(ArrayList<String> paths, ArrayList<String> fileNames, Ar
 }
     public static String getDate(String path){
         File file =  new File(path);
-        //This part sets the date to 12/31/1969 and ruins my whole program
-        //update: sdf isn't the problem, it goes to the default date because last modifyed returns 0 for some reason
+        //need to change to date taken, not modified or created
            SimpleDateFormat sdf = new SimpleDateFormat("MM/dd/yyyy");
            String date = sdf.format(file.lastModified());
            System.out.println(date);
